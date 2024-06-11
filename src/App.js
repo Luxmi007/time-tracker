@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Footer from "./components/Footer";
 
-const HomePage = () => {
-  return <h1>Home Page</h1>;
-};
+
 function App() {
   return (
    <BrowserRouter>
    <Routes>
     <Route path="/" element={<HomePage />}/>
 
+    <Footer/>
    </Routes>
    </BrowserRouter>
   );
