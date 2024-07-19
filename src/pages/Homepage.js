@@ -27,7 +27,7 @@ const Homepage = () => {
                   <Link
                     to={"/login"}
                     className="inline-block w-full sm:w-auto py-4 px-6 mb-4 sm:mb-0 sm:mr-4 text-center font-heading font-medium text-base text-white bg-blue-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200"
-                    href="#"
+                    
                   >
                     Start taking control of your time today!
                   </Link>
