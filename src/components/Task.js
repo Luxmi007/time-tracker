@@ -137,6 +137,7 @@ function Task({ task }) {
   };
 
   //Handle render buttons
+  
   const handleRenderButtons = () => {
     switch (localTask.status) {
       case "unstarted":
