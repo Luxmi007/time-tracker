@@ -22,9 +22,9 @@ import app from "../firebase/config";
 //instance of firestore
 const db = getFirestore(app);
 function Task({ task }) {
-  //=====
+  
   //Local state
-  //=====
+  
   const [localTask, setLocalTask] = useState(task);
   const [isEditing, setIsEditing] = useState(false);
   const [newTaskDescription, setNewTaskDescription] = useState(localTask.task);
