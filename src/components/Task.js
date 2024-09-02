@@ -170,6 +170,7 @@ function Task({ task }) {
     <div className="bg-white p-4 rounded-md text-black shadow-lg flex flex-col md:flex-row md:items-center justify-between">
       <div className="md:space-x-2 space-y-2 md:space-y-0">
         {/* render description */}
+        
         {renderTaskDescription()}
         <div className="flex items-center space-x-2">
           <AiOutlineCalendar className="text-gray-600" />
