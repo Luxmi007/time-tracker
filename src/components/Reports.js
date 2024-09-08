@@ -84,6 +84,8 @@ function Reports() {
                 }
                 total += taskTime;
               });
+
+              
               // Update the state
               setThisWeekTotal(weekTotal);
               setThisMonthTotal(monthTotal);
