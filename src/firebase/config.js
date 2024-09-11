@@ -5,7 +5,6 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDjRMgfbyGsu3q-cz13S_2awovUbVLF2eE",
   authDomain: "time-tracker-a2c64.firebaseapp.com",
   projectId: "time-tracker-a2c64",
   storageBucket: "time-tracker-a2c64.appspot.com",
