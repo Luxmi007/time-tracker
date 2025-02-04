@@ -1,21 +1,19 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import dotenv from 'dotenv';
-
-// Load environment variables
-dotenv.config();
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID
+  apiKey: "AIzaSyDjRMgfbyGsu3q-cz13S_2awovUbVLF2eE",
+  authDomain: "time-tracker-a2c64.firebaseapp.com",
+  projectId: "time-tracker-a2c64",
+  storageBucket: "time-tracker-a2c64.appspot.com",
+  messagingSenderId: "479916850967",
+  appId: "1:479916850967:web:e850432e005e1f02b14152"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export default app;
+export default app; 
