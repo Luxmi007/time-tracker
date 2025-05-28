@@ -11,6 +11,11 @@ const firebaseConfig = {
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_FIREBASE_APP_ID
+  authDomain: "time-tracker-a2c64.firebaseapp.com",
+  projectId: "time-tracker-a2c64",
+  storageBucket: "time-tracker-a2c64.appspot.com",
+  messagingSenderId: "479916850967",
+  appId: "1:479916850967:web:e850432e005e1f02b14152"
 };
 
 // Initialize Firebase
