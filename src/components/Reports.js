@@ -35,9 +35,7 @@ function Reports() {
   const [thisMonthTotal, setThisMonthTotal] = useState(0);
   const [totalTime, setTotalTime] = useState(0);
 
-  //------
   //Fetch all tasks
-  //------
 
   useEffect(() => {
     //fetch data
@@ -45,6 +43,7 @@ function Reports() {
       try {
         setLoading(true);
         setError(null);
+
         //Check if user is login
         if (auth.currentUser) {
           //Make query
@@ -102,6 +101,7 @@ function Reports() {
               );
             }
           });
+
           //Clean up
           return unsSubscribe;
         } else {
@@ -115,6 +115,7 @@ function Reports() {
         return () => {};
       }
     };
+
     //Call the function
     const unsSubscribe = fetchData();
     //clean up
